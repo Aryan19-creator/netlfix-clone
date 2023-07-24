@@ -40,7 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": {
-      "/api/auth/login": "https://netflix12.onrender.com"
-  }
+  "proxy": "https://netflix12.onrender.com"
 }
