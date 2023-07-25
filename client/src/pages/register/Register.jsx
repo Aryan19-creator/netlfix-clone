@@ -21,6 +21,7 @@ export default function Register() {
     e.preventDefault();
     setPassword(passwordRef.current.value);
     setUsername(usernameRef.current.value);
+    console.log(password,username);
     try {
       await axios.post("https://netflix12.onrender.com/api/auth/register", {
         email,
